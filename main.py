@@ -21,7 +21,7 @@ while not end_of_game:
       print ("Yot alredy chosen is letter")
     for position in range(word_length):
         letter = chosen_word[position]
-        print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
         if letter == guess:
             display[position] = letter
 
